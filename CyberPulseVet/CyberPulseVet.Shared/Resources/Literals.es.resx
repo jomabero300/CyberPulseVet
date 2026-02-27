@@ -118,6 +118,612 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Title" xml:space="preserve">
-    <value>Sistema de Inventarios</value>
+    <value>Sistema integral de inventarios</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Gestion eficiente de productos, existencias y movimientos.</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>El campo {0} debe tener máximo {1} caracteres.</value>
+  </data>
+  <data name="RequiredField" xml:space="preserve">
+    <value>El campo {0} es obligatorio.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Acciòn</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Direcciòn</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Cellular" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Paises</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>Esta seguro de borrar el {0} {1}?</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="ERR001" xml:space="preserve">
+    <value>Registro no encontrado.</value>
+  </data>
+  <data name="ERR002" xml:space="preserve">
+    <value>No se puede borrar, por que tiene registros relacionados.</value>
+  </data>
+  <data name="ERR003" xml:space="preserve">
+    <value>Ya existe este registro.</value>
+  </data>
+  <data name="ERR004" xml:space="preserve">
+    <value>El código del país no es valido.</value>
+  </data>
+  <data name="ERR005" xml:space="preserve">
+    <value>El código del proveedor no es valido.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="LeaveAndLoseChanges" xml:space="preserve">
+    <value>¿Quieres salir de la página y perder tus cambios?</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="NoRecords" xml:space="preserve">
+    <value>No hay registros para mostrar...</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="RecordCreateOk" xml:space="preserve">
+    <value>Registro creado con éxito.</value>
+  </data>
+  <data name="RecordDeletedOk" xml:space="preserve">
+    <value>Registro borrado con éxito.</value>
+  </data>
+  <data name="RecordSavedOk" xml:space="preserve">
+    <value>Registro guardo con éxito.</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Regresar</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Guardar cambios</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Buscar..</value>
+  </data>
+  <data name="SelectACountry" xml:space="preserve">
+    <value>-- Selecciones un país --</value>
+  </data>
+  <data name="SelectAState" xml:space="preserve">
+    <value>-- Seleccione un condado --</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Seleccione un archivo...</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Existencias</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Código postal</value>
+  </data>
+  <data name="RecordsNumber" xml:space="preserve">
+    <value>Número de Registros</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="Clean" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Acciones</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Por favor espere..</value>
+  </data>
+  <data name="Admi" xml:space="preserve">
+    <value>Adminstrador</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nombres</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>Tipo de usuario</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>No encontrado</value>
+  </data>
+  <data name="NothingInRoute" xml:space="preserve">
+    <value>Lo sentimos no hay nada en esta ruta</value>
+  </data>
+  <data name="Authorizing" xml:space="preserve">
+    <value>Autorizando..</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>No estas autorizado para ver este contenido..</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="LongthField" xml:space="preserve">
+    <value>El campo {0} debe tener entre {2} y {1} carácteres.</value>
+  </data>
+  <data name="PasswordAndConfirmationDifferent" xml:space="preserve">
+    <value>La contraseña y la confirmación no son iguales.</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>confirmación de contraseña</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="ValidEmail" xml:space="preserve">
+    <value>Debes ingresa un correo valido</value>
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>El campo {0} debe tener al menos {1} carácteres.</value>
+  </data>
+  <data name="ERR006" xml:space="preserve">
+    <value>Email o contraseña incorrecta</value>
+  </data>
+  <data name="NotUserYet" xml:space="preserve">
+    <value>¿No eres usuario aún? Resgitrate aquí</value>
+  </data>
+  <data name="ForgottenYourPassword" xml:space="preserve">
+    <value>¿Has olvidado tu contraseña?</value>
+  </data>
+  <data name="ResendAccountActivationEmail" xml:space="preserve">
+    <value>Reenviar correo de activación de cuenta</value>
+  </data>
+  <data name="LogoutConfirm" xml:space="preserve">
+    <value>¿Estás seguro que deseas cerrar sesión?</value>
+  </data>
+  <data name="LogoutMessage" xml:space="preserve">
+    <value>Si cierras sesión, tendrás que volver a iniciar de nuevo para acceder a tu cuenta.</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Cerrar sesión</value>
+  </data>
+  <data name="EditUserProfile" xml:space="preserve">
+    <value>Editar Perfil de Usuario</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hola</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Regitrarse como nuevo usuario</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="SubCategory" xml:space="preserve">
+    <value>Sub categoría</value>
+  </data>
+  <data name="Statu" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="ERR007" xml:space="preserve">
+    <value>Ha superado el máximo número de intentos, su cuenta está bloqueada, intente de nuevo en 5 minutos.</value>
+  </data>
+  <data name="ERR008" xml:space="preserve">
+    <value>El usuario no ha sido habilitado, debes de seguir las instrucciones del correo enviado para poder habilitar el usuario.</value>
+  </data>
+  <data name="ConfirmedEmailMessage" xml:space="preserve">
+    <value>Gracias por confirmar su email, ahora puedes ingresar al sistema.</value>
+  </data>
+  <data name="ConfirmEmail" xml:space="preserve">
+    <value>Confirmación de email</value>
+  </data>
+  <data name="ConfirmEmailMessage" xml:space="preserve">
+    <value>Presione el botón para confirmar su cuenta.</value>
+  </data>
+  <data name="AdminRegister." xml:space="preserve">
+    <value>Registro de Administrador</value>
+  </data>
+  <data name="UserRegister" xml:space="preserve">
+    <value>Registro de Usuario</value>
+  </data>
+  <data name="SendEmailConfirmationMessage" xml:space="preserve">
+    <value>Su cuenta ha sido creada con exito. Se te ha enviado un correo electrónico con las instrucciones para activar tu usuario.</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Número de teléfono</value>
+  </data>
+  <data name="EmailAlreadyExists" xml:space="preserve">
+    <value>El correo que ingresaste ya existe.</value>
+  </data>
+  <data name="MailForwarding" xml:space="preserve">
+    <value>Reenvió de correo</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Contraseña actual</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nueva contraseña</value>
+  </data>
+  <data name="PasswordChangedSuccessfully" xml:space="preserve">
+    <value>Contraseña modifica con éxito</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+  </data>
+  <data name="RecoverPasswordMessage" xml:space="preserve">
+    <value>Se te ha enviado un correo electrónico con las instrucciones para recuperar su contraseña.</value>
+  </data>
+  <data name="PasswordRecoveredMessage" xml:space="preserve">
+    <value>Contraseña cambiada con éxito, ahora puede ingresar con su nueva contraseña.</value>
+  </data>
+  <data name="PasswordRecovery" xml:space="preserve">
+    <value>Recuperación de Contraseña</value>
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+  <data name="ERR009" xml:space="preserve">
+    <value>El código del estado no es valido.</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="QR" xml:space="preserve">
+    <value>Código QR</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="SelectAStatu" xml:space="preserve">
+    <value>-- Seleccione un Estado--</value>
+  </data>
+  <data name="SubCategories" xml:space="preserve">
+    <value>Sub Categorias</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>Unida de Medida</value>
+  </data>
+  <data name="NameShort" xml:space="preserve">
+    <value>Nomenclatura</value>
+  </data>
+  <data name="SelectACategory" xml:space="preserve">
+    <value>--Seleccione una categoría --</value>
+  </data>
+  <data name="SelectASubCategory" xml:space="preserve">
+    <value>--Seleccione sub categoría --</value>
+  </data>
+  <data name="UnitMeasurement" xml:space="preserve">
+    <value>Unidad de medida</value>
+  </data>
+  <data name="UnitMeasurements" xml:space="preserve">
+    <value>Unidades de medida</value>
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Simbolo</value>
+  </data>
+  <data name="BaseValue" xml:space="preserve">
+    <value>Valor base</value>
+  </data>
+  <data name="SelectAUnitMeasurement" xml:space="preserve">
+    <value>--Seleccione unidad de medida--</value>
+  </data>
+  <data name="InvoiceDian" xml:space="preserve">
+    <value>Factura No</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="InvoiceType" xml:space="preserve">
+    <value>Tipo de factura</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Forma de pago</value>
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Empleado</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="ValueRange" xml:space="preserve">
+    <value>El valor debe ser cero o superior</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="Iva" xml:space="preserve">
+    <value>I.V.A</value>
+  </data>
+  <data name="Worth" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="SelectAIva" xml:space="preserve">
+    <value>--Seleccione un Iva--</value>
+  </data>
+  <data name="SelectAPayment" xml:space="preserve">
+    <value>--Selecciona un pago--</value>
+  </data>
+  <data name="InvoiceId" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="DetailRows" xml:space="preserve">
+    <value>Ingrese al menos un detalle</value>
+  </data>
+  <data name="Entries" xml:space="preserve">
+    <value>Entradas</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Salida</value>
+  </data>
+  <data name="Unsubscribe" xml:space="preserve">
+    <value>Darse de baja</value>
+  </data>
+  <data name="MaxFileSize" xml:space="preserve">
+    <value>Máximo tamaño: 512KB</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="DocumentId" xml:space="preserve">
+    <value>Identificación</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="Nit" xml:space="preserve">
+    <value>Nit</value>
+  </data>
+  <data name="ModelName" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="Chain" xml:space="preserve">
+    <value>Cadena</value>
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Bodega</value>
+  </data>
+  <data name="Dian" xml:space="preserve">
+    <value>Dian</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="NumberResolution" xml:space="preserve">
+    <value>Resolución No</value>
+  </data>
+  <data name="NumberStar" xml:space="preserve">
+    <value>Inicio No</value>
+  </data>
+  <data name="NumberEnd" xml:space="preserve">
+    <value>Find No</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Biller" xml:space="preserve">
+    <value>Facturador</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="Suppliers" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="CodeBarra" xml:space="preserve">
+    <value>Código de barras</value>
+  </data>
+  <data name="DateExpiration" xml:space="preserve">
+    <value>Fecha vencimiento</value>
+  </data>
+  <data name="ERR010" xml:space="preserve">
+    <value>No hay numeración de la DIAN</value>
+  </data>
+  <data name="HRW001" xml:space="preserve">
+    <value>Recurso no encontrado.</value>
+  </data>
+  <data name="HRW002" xml:space="preserve">
+    <value>Tienes que logearte para hacer esta operación.</value>
+  </data>
+  <data name="HRW003" xml:space="preserve">
+    <value>No tienes permisos para hacer esta operación.</value>
+  </data>
+  <data name="HRW004" xml:space="preserve">
+    <value>Ha ocurrido un error inesperado.</value>
+  </data>
+  <data name="SelectACustomer" xml:space="preserve">
+    <value>-- Seleccione un cliente --</value>
+  </data>
+  <data name="SelectASupplier" xml:space="preserve">
+    <value>-- Seleccione un proveedor --</value>
+  </data>
+  <data name="SalePrice" xml:space="preserve">
+    <value>Precio de venta</value>
+  </data>
+  <data name="PurchasePrice" xml:space="preserve">
+    <value>Precio compra</value>
+  </data>
+  <data name="InvoiceDate" xml:space="preserve">
+    <value>Fecha factura</value>
+  </data>
+  <data name="PaymentNotRows" xml:space="preserve">
+    <value>No hay formas de pagos</value>
+  </data>
+  <data name="SupplierNotRows" xml:space="preserve">
+    <value>No hay proveeores</value>
+  </data>
+  <data name="ProductNotRows" xml:space="preserve">
+    <value>No hay productos</value>
+  </data>
+  <data name="SelectDate" xml:space="preserve">
+    <value>--Seleccione una fecha--</value>
+  </data>
+  <data name="Stores" xml:space="preserve">
+    <value>Bodegas</value>
+  </data>
+  <data name="Inputs" xml:space="preserve">
+    <value>Factura de entrada</value>
+  </data>
+  <data name="Outputs" xml:space="preserve">
+    <value>Factura de Venta</value>
+  </data>
+  <data name="StockMin" xml:space="preserve">
+    <value>Existencia mínima</value>
+  </data>
+  <data name="Acept" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="RegisterConfirm" xml:space="preserve">
+    <value>Esta seguro de registrar el {0} {1}?</value>
+  </data>
+  <data name="RegisterMovement" xml:space="preserve">
+    <value>Regiastrar el movimiento</value>
+  </data>
+  <data name="ERR011" xml:space="preserve">
+    <value>La factura no tiene detalles para procesar.</value>
+  </data>
+  <data name="ERR012" xml:space="preserve">
+    <value>No se encontró la factura a actualizar.</value>
+  </data>
+  <data name="ERR013" xml:space="preserve">
+    <value>Factura procesada correctamente y stock actualizado.</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Caja</value>
+  </data>
+  <data name="InitialFund" xml:space="preserve">
+    <value>Fondo inicial</value>
+  </data>
+  <data name="Cashier" xml:space="preserve">
+    <value>Cajero</value>
+  </data>
+  <data name="Cashiers" xml:space="preserve">
+    <value>Cajeros</value>
+  </data>
+  <data name="Slogan" xml:space="preserve">
+    <value>Eslogan</value>
+  </data>
+  <data name="SelectAEmployee" xml:space="preserve">
+    <value>-- Seleccione un empleado --</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Fecha Inicio</value>
+  </data>
+  <data name="QuantityStockError" xml:space="preserve">
+    <value>La cantidad solicitad {0} excede las existencias disponibles {1} unidades.</value>
+  </data>
+  <data name="ComapanyName" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Efectivo</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Cambio</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Reportes</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Fecha final</value>
+  </data>
+  <data name="ERR014" xml:space="preserve">
+    <value>Fechas inválidas</value>
+  </data>
+  <data name="ERR015" xml:space="preserve">
+    <value>La fecha inicial no puede ser mayor a la final</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="ERR016" xml:space="preserve">
+    <value>Fondos insuficientes. No es posible guardar el registro hasta que se cubra el monto total de la factura.</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Confirmado?</value>
+  </data>
+  <data name="BaseUnitType" xml:space="preserve">
+    <value>Tipo de unidad base</value>
+  </data>
+  <data name="Denomination" xml:space="preserve">
+    <value>Denominación</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="SelectABaseUnitType" xml:space="preserve">
+    <value>-- Seleccione unidad base --</value>
   </data>
 </root>
