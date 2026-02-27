@@ -1,0 +1,6 @@
+@CyberPulseVet.Backend_HostAddress = http://localhost:5127
+
+GET {{CyberPulseVet.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
